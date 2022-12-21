@@ -1,0 +1,13 @@
+
+const Card = () => {
+  return (
+    <div className="card">
+        <p className="card__name">Carlos</p>
+        <div className="card__circle"></div>
+        <img className="card__img" src={} alt="Imagen Pok<emon"></img>
+
+    </div>
+  )
+}
+
+export {Card}
