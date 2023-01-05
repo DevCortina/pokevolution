@@ -11,7 +11,7 @@ const Button = ({icon, handleClick}) => {
      onClick={handleClick}>
       {icon}
       </button>
-    <div className='button__shadow' ></div>
+    <div className='button__shadow'></div>
     </div>
   )
 }
